@@ -1,3 +1,4 @@
-print("Git test!")
-print("Adding other lines")
-print("Adding more lines")
+print("Hello World!")
+print("I am good")
+print("How are you?")
+print(3)
