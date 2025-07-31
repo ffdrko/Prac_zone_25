@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204a9b37-6f1f-4ab8-aacc-f10cf359625a" name="Changes" comment="Variable in python">
-      <change afterPath="$PROJECT_DIR$/Part_1/program_3.py" afterDir="false" />
+    <list default="true" id="204a9b37-6f1f-4ab8-aacc-f10cf359625a" name="Changes" comment="Datatype and user input in python">
+      <change afterPath="$PROJECT_DIR$/Part_1/program_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Python.program_1.executor": "Run",
     "Python.program_2.executor": "Run",
     "Python.program_3.executor": "Run",
+    "Python.program_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -49,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.program_3">
+  <component name="RunManager" selected="Python.program_4">
     <configuration name="program_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Analytic_prep" />
       <option name="ENV_FILES" value="" />
@@ -142,8 +143,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="program_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Analytic_prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part_1/program_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.program_4" />
         <item itemvalue="Python.program_3" />
         <item itemvalue="Python.program_2" />
         <item itemvalue="Python.program_1" />
@@ -166,7 +191,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753944983520</updated>
-      <workItem from="1753944984616" duration="2579000" />
+      <workItem from="1753944984616" duration="3284000" />
     </task>
     <task id="LOCAL-00001" summary="Data Analytic Start">
       <option name="closed" value="true" />
@@ -208,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753963915024</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Datatype and user input in python">
+      <option name="closed" value="true" />
+      <created>1753964620978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753964620978</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,12 +253,14 @@
     <MESSAGE value="Using print statement for multiple line." />
     <MESSAGE value="Use of comment in python" />
     <MESSAGE value="Variable in python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variable in python" />
+    <MESSAGE value="Datatype and user input in python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Datatype and user input in python" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_4.coverage" NAME="program_4 Coverage Results" MODIFIED="1753964744049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
     <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_2.coverage" NAME="program_2 Coverage Results" MODIFIED="1753963776353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
     <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_0.coverage" NAME="program_0 Coverage Results" MODIFIED="1753963175869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
-    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_3.coverage" NAME="program_3 Coverage Results" MODIFIED="1753964166416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
+    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_3.coverage" NAME="program_3 Coverage Results" MODIFIED="1753964565719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
     <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_1.coverage" NAME="program_1 Coverage Results" MODIFIED="1753963387891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
   </component>
 </project>
