@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204a9b37-6f1f-4ab8-aacc-f10cf359625a" name="Changes" comment="Data Analytic Start">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="204a9b37-6f1f-4ab8-aacc-f10cf359625a" name="Changes" comment="Using print statement for multiple line.">
+      <change afterPath="$PROJECT_DIR$/Part_1/program_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.program_0.executor": "Run",
+    "Python.program_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -46,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.program_1">
     <configuration name="program_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_Analytic_prep" />
       <option name="ENV_FILES" value="" />
@@ -70,8 +71,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="program_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_Analytic_prep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Part_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Part_1/program_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.program_1" />
         <item itemvalue="Python.program_0" />
       </list>
     </recent_temporary>
@@ -91,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753944983520</updated>
-      <workItem from="1753944984616" duration="1418000" />
+      <workItem from="1753944984616" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Data Analytic Start">
       <option name="closed" value="true" />
@@ -101,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753945156188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Print statement">
+      <option name="closed" value="true" />
+      <created>1753963091501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753963091501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Using print statement for multiple line.">
+      <option name="closed" value="true" />
+      <created>1753963219875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753963219875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,9 +150,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Data Analytic Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Analytic Start" />
+    <MESSAGE value="Print statement" />
+    <MESSAGE value="Using print statement for multiple line." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using print statement for multiple line." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_0.coverage" NAME="program_0 Coverage Results" MODIFIED="1753945105578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
+    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_0.coverage" NAME="program_0 Coverage Results" MODIFIED="1753963175869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
+    <SUITE FILE_PATH="coverage/Data_Analytic_prep$program_1.coverage" NAME="program_1 Coverage Results" MODIFIED="1753963387891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Part_1" />
   </component>
 </project>
