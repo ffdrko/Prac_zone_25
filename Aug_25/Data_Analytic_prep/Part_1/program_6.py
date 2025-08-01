@@ -19,3 +19,9 @@ print( 3 < 6)
 print( 3 <= 6)
 print(3 == 6)
 print(3 != 6)
+
+# Logical Operators
+
+print(3 > 6 and 3 < 6)
+print(3 > 6 or 3 < 6)
+print(not(3 == 6))
