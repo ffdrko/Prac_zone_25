@@ -1,6 +1,5 @@
 /*
-Create a new table called persons with
-columns: id, person_name, birth_date, and phone
+Create a new table called persons with columns: id, person_name, birth_date, and phone
 */
 
 CREATE TABLE persons(
