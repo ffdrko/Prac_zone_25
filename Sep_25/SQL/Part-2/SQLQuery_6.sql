@@ -1,4 +1,4 @@
--- Multi Query
+--  
 SELECT *
 FROM customers;
 
