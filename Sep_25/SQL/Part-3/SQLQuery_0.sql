@@ -1,5 +1,5 @@
 /* Create a new table called persons with columns: id,
-persons_name, birth_day, and phone*/
+ persons_name, birth_day, and phone*/
 
 CREATE TABLE persons(
 	id INT NOT NULL,
