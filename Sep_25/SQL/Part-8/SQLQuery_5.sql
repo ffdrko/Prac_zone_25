@@ -1,0 +1,3 @@
+SELECT
+-10 AS NUM,
+ABS(-10) AS E_NUM
