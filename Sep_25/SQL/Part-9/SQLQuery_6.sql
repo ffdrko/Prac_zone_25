@@ -1,0 +1,3 @@
+Select
+CONVERT(INT, '123'),
+CONVERT(DATE, '2025-08-20')
