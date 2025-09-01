@@ -1,4 +1,4 @@
--- Find all customeres whose first name has 'r' in 3rd position
+-- Find all customers whose first name end with 'n'
 SELECT *
 FROM customers
-WHERE first_name LIKE '__r%'
+WHERE first_name like '%n'

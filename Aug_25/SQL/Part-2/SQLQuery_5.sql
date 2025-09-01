@@ -1,4 +1,4 @@
--- Retrieve only 3 customers
-
-SELECT TOP 3 *
-FROM customers
+-- Get the Two Most Recent orders
+SELECT TOP 2 *
+FROM orders 
+ORDER BY order_date DESC

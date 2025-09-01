@@ -1,17 +1,10 @@
--- Copy data from 'customers' table into 'persons'
-
-CREATE TABLE persons(
-id INT NOT NULL,
-person_name VARCHAR(50) NOT NULL,
-birht_date DATE,
-phone VARCHAR(15),
-CONSTRAINT pk_persons PRIMARY KEY(id)
-)
-
-INSERT INTO persons (id, person_name, birht_date, phone)
+-- Copy data from 'Customers' table into 'persons'
+INSERT INTO persons(id, person_name, birth_date, phone)
 SELECT 
-id,
-first_name,
+id, first_name,
 NULL,
-'Unknown'
+'Unkown'
 FROM customers
+
+SELECT *
+FROM persons

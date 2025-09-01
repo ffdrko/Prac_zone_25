@@ -1,4 +1,4 @@
--- Find all customeres whose last name starts with "n"
+-- Retrieve all customers from either Germany or usa
 SELECT *
 FROM customers
-WHERE first_name LIKE '%n'
+WHERE country IN('Germany','USA')

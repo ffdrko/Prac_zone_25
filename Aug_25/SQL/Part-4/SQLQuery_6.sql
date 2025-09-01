@@ -1,5 +1,4 @@
-/* Retrieve customers who are from the usa and
-have a score greater than 500 */
+-- Retrieve all customers with a score less than 500.
 SELECT *
 FROM customers
-WHERE country = 'USA' AND score > 500
+WHERE score < 500

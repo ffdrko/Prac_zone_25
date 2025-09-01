@@ -1,4 +1,5 @@
--- Find all customeres whose first name starts with "M"
+/* Retrieve all customers whose score falls in the range
+between 100 and 500 */
 SELECT *
 FROM customers
-WHERE first_name LIKE 'M%'
+WHERE score BETWEEN 100 AND 500

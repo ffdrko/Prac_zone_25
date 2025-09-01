@@ -1,8 +1,7 @@
--- update the country for the last customers
-
+-- Change the score of customer 6 to 0
 UPDATE customers
-set country = 'UK'
-where id = 7
+SET score = 0
+WHERE id = 6
 
-SELECT *
-FROM customers
+Select *
+from customers

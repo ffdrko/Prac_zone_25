@@ -1,5 +1,3 @@
--- Retrieve the lowest 2 customers based on the score
-
-SELECT TOP 2 *
-FROM customers
-ORDER BY score ASC
+-- Staitc Values
+SELECT 123 AS static_number
+SELECT 'Hello' AS static_string

@@ -1,4 +1,5 @@
--- Retrieve all customers whose score falls in the range between 100 and 500
+/* Retrieve all customers who are from the USA or
+have a score greater than 500 */
 SELECT *
 FROM customers
-WHERE score BETWEEN 100 AND 500
+WHERE country = 'USA' OR score > 500

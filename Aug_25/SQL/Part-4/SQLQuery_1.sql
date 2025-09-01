@@ -1,4 +1,2 @@
--- Retrieve all customers who are not from Germany.
-SELECT *
-FROM customers
-WHERE country != 'Germany'
+-- DELETE ALL DATA FROM THE PERSONS TABLE
+TRUNCATE TABLE persons

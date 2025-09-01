@@ -1,4 +1,4 @@
-/* Retrieve all customers from either Germany or USA */
+-- Retrieve all customers with a score not less than 500
 SELECT *
 FROM customers
-WHERE country IN('Germany', 'USA')
+WHERE NOT(score < 500)

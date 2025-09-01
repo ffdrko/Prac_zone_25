@@ -1,4 +1,6 @@
--- Retrieve all customers from germany
+-- Delete all customers with an id greater than 5
+DELETE FROM customers
+WHERE id > 5
+
 SELECT *
 FROM customers
-WHERE country = 'Germany'

@@ -1,4 +1,4 @@
--- Retrieve all customers with a score of 500 or more
+-- Retrieve all customers who are not from germany
 SELECT *
 FROM customers
-WHERE score >= 500
+WHERE country != 'Germany'

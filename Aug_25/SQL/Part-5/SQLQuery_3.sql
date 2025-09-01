@@ -1,4 +1,4 @@
--- Find all customeres whose name contains 'r'
+-- Find all customers whose first name starts with 'M'
 SELECT *
 FROM customers
-WHERE first_name LIKE '%r%'
+WHERE first_name like 'M%'

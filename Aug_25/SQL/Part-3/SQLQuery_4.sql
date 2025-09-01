@@ -1,7 +1,7 @@
-INSERT INTO customers(id,first_name,country,score)
-VALUES 
-(6,'Anna','USA',NULL), 
-(7,'Sam',NULL,100)
+INSERT INTO customers(id, first_name)
+VALUES
+	(10, 'Sahra ')
+	
 
-Select *
-from customers
+SELECT *
+FROM customers

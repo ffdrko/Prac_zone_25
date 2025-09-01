@@ -1,14 +1,10 @@
-/*
-Create a new table called persons with columns: id, person_name, birth_date, and phone
-*/
+/* Create a new table called persons with columns: id,
+ persons_name, birth_day, and phone*/
 
 CREATE TABLE persons(
 	id INT NOT NULL,
 	person_name VARCHAR(50) NOT NULL,
-	birth_date DATE,
+	birthday DATE,
 	phone VARCHAR(15) NOT NULL,
-	CONSTRAINT pk_persons PRIMARY KEY(id)
+	CONSTRAINT pk_person PRIMARY KEY(id)
 )
-
-SELECT *
-FROM persons

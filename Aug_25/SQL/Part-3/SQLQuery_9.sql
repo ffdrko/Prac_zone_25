@@ -1,6 +1,8 @@
--- Delete all data from table persons
-
-TRUNCATE TABLE persons
+/* Update all customers with a null score by setting 
+their score to 0 */
+UPDATE customers
+SET score = 0
+WHERE score is null
 
 select *
-from persons
+from customers

@@ -1,8 +1,7 @@
--- Change the score of customers with id 6 to 0
-
-UPDATE customers
-set score = 0
-where id = 6
-
-SELECT *
-FROM customers
+CREATE TABLE persons(
+id INT NOT NULL,
+person_name VARCHAR(50) NOT NULL,
+birth_date DATE,
+phone VARCHAR(15) NOT NULL,
+CONSTRAINT pk_persons PRIMARY KEY(id)
+)
