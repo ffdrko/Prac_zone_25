@@ -1,1 +1,3 @@
-print("Hello World")
+name = "John"
+city = "New York"
+country = "USA"
